@@ -64,20 +64,31 @@
                         </div>
                     </li>
                 </ul>
-                <div>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Ingresa
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Regístrate</a>
-                        <a class="dropdown-item" href="#">Ingresa</a>
-                    </div>
-                </li>
-                </div>
             </div>
         </div>
     </nav>
+
+
+
+    <!-- JavaScript para los dropdowns -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+            var dropdownMenus = document.querySelectorAll('.dropdown-menu');
+
+            dropdownToggles.forEach(function(dropdownToggle, index) {
+                dropdownToggle.addEventListener('click', function() {
+                    dropdownMenus[index].classList.toggle('show');
+                });
+
+                document.addEventListener('click', function(event) {
+                    if (!dropdownToggle.contains(event.target) && !dropdownMenus[index].contains(event.target)) {
+                        dropdownMenus[index].classList.remove('show');
+                    }
+                });
+            });
+        });
+    </script>
 
     <?php
     // Función para generar los breadcrumbs basados en la URL actual
@@ -108,43 +119,6 @@
     // Llamar a la función para generar los breadcrumbs
     generateBreadcrumbs();
     ?>
-
-
-
-    <!-- JavaScript para los dropdowns -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var dropdownToggles = document.querySelectorAll('.dropdown-toggle');
-            var dropdownMenus = document.querySelectorAll('.dropdown-menu');
-
-            dropdownToggles.forEach(function(dropdownToggle, index) {
-                dropdownToggle.addEventListener('click', function() {
-                    dropdownMenus[index].classList.toggle('show');
-                });
-
-                document.addEventListener('click', function(event) {
-                    if (!dropdownToggle.contains(event.target) && !dropdownMenus[index].contains(event.target)) {
-                        dropdownMenus[index].classList.remove('show');
-                    }
-                });
-            });
-        });
-    </script>
-
-    <!-- Script JavaScript para los breadcrumbs -->
-    <script>
-        // Captura todos los enlaces dentro de los breadcrumbs
-        const breadcrumbsLinks = document.querySelectorAll('.breadcrumbs a');
-
-        // Agrega un event listener a cada enlace para prevenir su comportamiento por defecto
-        breadcrumbsLinks.forEach(link => {
-            link.addEventListener('click', function(event) {
-                event.preventDefault();
-                // Coloca aquí el código para manejar la navegación al hacer clic en los enlaces de los breadcrumbs
-                console.log('Has hecho clic en el enlace:', link.innerText);
-            });
-        });
-    </script>
 
 </body>
 <!-- Scripts JavaScript y Bootstrap -->

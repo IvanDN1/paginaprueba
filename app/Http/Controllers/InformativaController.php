@@ -16,14 +16,14 @@ public function contacto()
     return view('contacto');
 }
 
-public function mision()
+public function cursos()
 {
-    return view('mision');
+    return view('cursos');
 }
 
-public function about()
+public function nosotros()
 {
-    return view('about');
+    return view('nosotros');
 }
 
 public function login()
