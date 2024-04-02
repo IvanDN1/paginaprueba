@@ -1,0 +1,29 @@
+.navbar .nav-link {
+    color: #fff !important;
+}
+
+.navbar .btn-outline-light {
+    color: #fff;
+    border-color: #007bff;
+    background-color: #1a065a;
+}
+
+.navbar .btn-outline-light:hover {
+    background-color: #1a065a;
+}
+
+.btn-primary {
+    color: #fff;
+    border-color: #1a065a;
+    background-color: #1a065a;
+}
+
+.btn-primary {
+    background-color: #1a065a;
+}
+
+.navbar {
+    background-color: #116506;
+    color: #fff;
+    padding: 30px 0;
+}

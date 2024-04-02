@@ -1,41 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Enlaces a estilos CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('css/navbar.css') }}">
     <!-- Enlaces a fuentes de iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 
-    <style>
-        /* Estilos personalizados */
-        .navbar .nav-link {
-            color: #fff !important;
-        }
-        .navbar .btn-outline-light {
-            color: #fff;
-            border-color: #007bff;
-            background-color: #1a065a /* Bordes azules para el botón */
-        }
-        .navbar .btn-outline-light:hover {
-            background-color: #1a065a; /* Color de fondo azul al pasar el ratón */
-        }
-        .btn-primary {
-            color: #fff;
-            border-color: #1a065a;
-            background-color: #1a065a; /* Bordes azules para el botón */
-        }
-        .btn-primary {
-            background-color: #1a065a; /* Color de fondo azul al pasar el ratón */
-        }
 
-    </style>
     <!-- Navbar -->
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #116506;">
+    <nav class="navbar navbar-expand-lg navbar-dark" ">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -66,7 +42,6 @@
             </div>
         </div>
     </nav>
-
 
 
     <!-- JavaScript para los dropdowns -->
@@ -120,8 +95,8 @@
     ?>
 
 </body>
-<!-- Scripts JavaScript y Bootstrap -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- JavaScript para los dropdowns -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </html>
