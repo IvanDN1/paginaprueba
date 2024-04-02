@@ -46,10 +46,10 @@
                         <a class="nav-link" href="/">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/about">Nosotros</a>
+                        <a class="nav-link" href="/nosotros">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/mision">Cursos</a>
+                        <a class="nav-link" href="/cursos">Cursos</a>
                     <li class="nav-item">
                         <a class="nav-link" href="/contacto">Contactos</a>
                     </li>
@@ -58,9 +58,8 @@
                             Cursos
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Cursos </a>
-                            <a class="dropdown-item" href="#">Cursos </a>
-                            <a class="dropdown-item" href="">Cursos </a>
+                            <a class="dropdown-item" href="/cursos/cursoate">Cursos ATE</a>
+                            <a class="dropdown-item" href="cursos/cursootec">Cursos OTEC</a>
                         </div>
                     </li>
                 </ul>

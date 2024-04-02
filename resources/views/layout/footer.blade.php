@@ -42,9 +42,9 @@
                     <ul class="nav flex-column">
                         <ul class="nav flex-column">
                             <li class="nav-item mb-2"><a href="/" class="nav-link p-0 text-body-secondary nav-link-custom">Inicio</a></li>
-                            <li class="nav-item mb-2"><a href="/mision" class="nav-link p-0 text-body-secondary nav-link-custom">Cursos</a></li>
+                            <li class="nav-item mb-2"><a href="/cursos" class="nav-link p-0 text-body-secondary nav-link-custom">Cursos</a></li>
                             <li class="nav-item mb-2"><a href="/contacto" class="nav-link p-0 text-body-secondary nav-link-custom">Contacto</a></li>
-                            <li class="nav-item mb-2"><a href="/about" class="nav-link p-0 text-body-secondary nav-link-custom">Nosotros</a></li>
+                            <li class="nav-item mb-2"><a href="/nosotros" class="nav-link p-0 text-body-secondary nav-link-custom">Nosotros</a></li>
                         </ul>
                 </div>
                 <div class="col-6 col-md-2 mb-3 custom-section">

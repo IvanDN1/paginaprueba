@@ -26,9 +26,5 @@ public function nosotros()
     return view('nosotros');
 }
 
-public function login()
-{
-    return view('login');
-}
 
 }
