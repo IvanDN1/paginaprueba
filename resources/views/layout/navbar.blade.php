@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Enlaces a estilos CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Enlaces a fuentes de iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="navbar.css">
     <title>Document</title>
 
     <style>
@@ -30,14 +32,10 @@
             background-color: #1a065a; /* Color de fondo azul al pasar el ratón */
         }
 
-        .navbar {
-            color: #116506;
-
-        }
     </style>
     <!-- Navbar -->
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" ">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #116506;">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -48,10 +46,10 @@
                         <a class="nav-link" href="/">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/nosotros">Nosotros</a>
+                        <a class="nav-link" href="/about">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/cursos">Cursos</a>
+                        <a class="nav-link" href="/mision">Cursos</a>
                     <li class="nav-item">
                         <a class="nav-link" href="/contacto">Contactos</a>
                     </li>
@@ -60,14 +58,16 @@
                             Cursos
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="/cursos/cursoate">Cursos ATE</a>
-                            <a class="dropdown-item" href="cursos/cursootec">Cursos OTEC</a>
+                            <a class="dropdown-item" href="#">Cursos </a>
+                            <a class="dropdown-item" href="#">Cursos </a>
+                            <a class="dropdown-item" href="">Cursos </a>
                         </div>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
 
 
     <!-- JavaScript para los dropdowns -->
@@ -121,8 +121,8 @@
     ?>
 
 </body>
-<!-- JavaScript para los dropdowns -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Scripts JavaScript y Bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </html>
