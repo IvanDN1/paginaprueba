@@ -2,13 +2,39 @@
 <html lang="en">
 <head>
     <!-- Enlaces a estilos CSS -->
-    <link rel="stylesheet" href="{{ asset('css/navbar.css') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Enlaces a fuentes de iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="navbar.css">
     <title>Document</title>
 
+    <style>
+        /* Estilos personalizados */
+        .navbar .nav-link {
+            color: #fff !important;
+        }
+        .navbar .btn-outline-light {
+            color: #fff;
+            border-color: #007bff;
+            background-color: #1a065a /* Bordes azules para el botón */
+        }
+        .navbar .btn-outline-light:hover {
+            background-color: #1a065a; /* Color de fondo azul al pasar el ratón */
+        }
+        .btn-primary {
+            color: #fff;
+            border-color: #1a065a;
+            background-color: #1a065a; /* Bordes azules para el botón */
+        }
+        .btn-primary {
+            background-color: #1a065a; /* Color de fondo azul al pasar el ratón */
+        }
 
+        .navbar {
+            color: #116506;
+
+        }
+    </style>
     <!-- Navbar -->
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark" ">
