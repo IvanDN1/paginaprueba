@@ -1,4 +1,9 @@
 
+.navbar {
+    background-color: #116506; /* Color verde palta para el footer */
+    color: #fff;
+    padding: 10px 0;
+}
 /* Estilos personalizados */
 .navbar .nav-link {
     color: #fff !important;
@@ -21,8 +26,4 @@
 }
 
 
-.navbar {
-    background-color: #116506; /* Color verde palta para el footer */
-    color: #fff;
-    padding: 10px 0;
-}
+
