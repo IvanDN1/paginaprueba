@@ -14,14 +14,14 @@
 
 </head>
 <body>
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-interval="false">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 0"></button>
         </div>
         <div class="carousel-inner">
-            @for ($i = 1; $i <= 6; $i++)
+            @for ($i = 1; $i <= 3; $i++)
                 <div class="carousel-item @if ($i === 1) active @endif">
                     <img src="{{ asset('images/foto'.$i.'.jpeg') }}" class="d-block w-100" alt="Foto {{ $i }}">
                 </div>
