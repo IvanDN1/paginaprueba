@@ -10,7 +10,7 @@
 
     <!-- Navbar -->
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" style= "{{ asset('css/navbar.css') }}" rel="stylesheet">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -21,10 +21,10 @@
                         <a class="nav-link" href="/">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/about">Nosotros</a>
+                        <a class="nav-link" href="/nosotros">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/mision">Cursos</a>
+                        <a class="nav-link" href="/cursos">Cursos</a>
                     <li class="nav-item">
                         <a class="nav-link" href="/contacto">Contactos</a>
                     </li>
