@@ -7,12 +7,11 @@
     <!-- Enlaces a estilos CSS -->
     <link href="{{ asset('css/navbar.css') }}" rel="stylesheet">
     <!-- Enlaces a fuentes de iconos -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Document</title>
 
     <!-- Navbar -->
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" href="{{ asset('css/navbar.css') }}" rel="stylesheet">>
+    <nav class="navbar navbar-expand-lg navbar-dark" stule= "{{ asset('css/navbar.css') }}" rel="stylesheet">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
