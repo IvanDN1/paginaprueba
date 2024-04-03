@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Enlaces a estilos CSS -->
-    <!-- Enlaces a fuentes de iconos -->
-    <title>Document</title>
 
-    <!-- Navbar -->
+    <link href="{{ asset('css/navbar.css') }}" rel="stylesheet">
+    <!-- Estilos de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
