@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Document</title>
 
-
-    </style>
     <!-- Navbar -->
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark" href="{{ asset('css/navbar.css') }}" rel="stylesheet">>
