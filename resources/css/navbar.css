@@ -1,29 +1,25 @@
 
-
-
+/* Estilos personalizados */
 .navbar .nav-link {
     color: #fff !important;
 }
-
 .navbar .btn-outline-light {
     color: #fff;
     border-color: #007bff;
-    background-color: #1a065a; /* Bordes azules para el botón */
+    background-color: #1a065a /* Bordes azules para el botón */
 }
-
 .navbar .btn-outline-light:hover {
     background-color: #1a065a; /* Color de fondo azul al pasar el ratón */
 }
-
 .btn-primary {
     color: #fff;
     border-color: #1a065a;
     background-color: #1a065a; /* Bordes azules para el botón */
 }
-
 .btn-primary {
     background-color: #1a065a; /* Color de fondo azul al pasar el ratón */
 }
+
 
 .navbar {
     background-color: #116506; /* Color verde palta para el footer */
