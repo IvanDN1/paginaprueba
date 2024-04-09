@@ -5,32 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Enlaces a estilos CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="css" href="{{ asset('css/footer.css')}}">
     <!-- Enlaces a fuentes de iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Document</title>
 
     <style>
-        .footer {
-            background-color: #116506; /* Color verde palta para el footer */
-            color: #fff;
-            padding: 30px 0;
-        }
 
-        .custom-btn {
-            background-color: #1a065a; /* Cambia el color de fondo del botón */
-            color: #fff; /* Cambia el color del texto del botón */
-        }
-        .nav-link-custom {
-            color: #1a065a; /* Cambiar color del texto de los enlaces */
-            /* Otros estilos para los enlaces si lo deseas */
-        }
-        .footer .nav-link {
-            color: #fff !important;
-        }
-        .text-white {
-            color: #ffffff; /* Color blanco */
-        }
     </style>
 </head>
 <body>

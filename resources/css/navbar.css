@@ -1,73 +1,52 @@
 
-.navbar-nav{
-    background-color: #116506; /* Color verde palta para el footer */
-    color: #fff;
-    padding: 10px 0;
-}
-/* Estilos personalizados */
-.navbar .nav-link {
-    color: #ffffff !important;
-}
-.navbar .btn-outline-light {
-    color: #fff;
-    border-color: #007bff;
-    background-color: #1a065a /* Bordes azules para el botón */
-}
-.navbar .btn-outline-light:hover {
-    background-color: #1a065a; /* Color de fondo azul al pasar el ratón */
-}
-.btn-primary {
-    color: #fff;
-    border-color: #1a065a;
-    background-color: #1a065a; /* Bordes azules para el botón */
-}
-.btn-primary {
-    background-color: #1a065a; /* Color de fondo azul al pasar el ratón */
-}
-
-.navbar {
-    background-color: #0d5311; /* Fondo verde oscuro */
-    color: #fff;
-    padding: 10px 0;
-}
-
-.container {
+.navbar-custom {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.navbar-logo {
+    align-items: center;
+    background-color: #116506;
     color: #fff;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 24px;
+    padding: 10px 20px;
 }
 
-.navbar-menu {
+.nav-links {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    display: flex;
 }
 
-.navbar-menu li {
-    display: inline-block;
+.nav-links li {
     margin-right: 20px;
 }
 
-.navbar-menu li a {
+.nav-links li a {
     color: #fff;
     text-decoration: none;
-    transition: color 0.3s ease;
 }
 
-.navbar-menu li a:hover {
-    color: #f39c12; /* Color de texto al pasar el ratón */
+.dropdown {
+    position: relative;
 }
 
-.content {
-    padding: 20px;
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #116506;
+    min-width: 120px;
+    z-index: 1;
 }
 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.nav-buttons a {
+    margin-left: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos opcionales para el logo */
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
