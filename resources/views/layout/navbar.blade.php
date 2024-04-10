@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link href="/resources/css/navbar.css" rel="stylesheet">
+    <link href="/resources/css/navbar.css" rel="stylesheet" type="text/css">
     <!-- Estilos de Bootstrap -->
 
 </head>
