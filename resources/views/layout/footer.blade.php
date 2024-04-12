@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Enlaces a estilos CSS -->
-    <link rel="css" href="{{ asset('css/footer.css')}}">
+    <!-- Enlaces a estilos CSS y JS -->
+    {{ HTML::style('css/footer.css') }}
+    {{ HTML::script('js/footer.css') }}
     <!-- Enlaces a fuentes de iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Document</title>
