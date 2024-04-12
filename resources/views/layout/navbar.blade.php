@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link href="/resources/css/navbar.css" rel="stylesheet" type="text/css">
+    <link href="{{ asset('css/navbar.css') }}" rel="stylesheet">
+    <link href="{{ asset('js/navbar.css') }}" rel="stylesheet">
     <!-- Estilos de Bootstrap -->
-
 
 </head>
 <body>
@@ -48,7 +48,44 @@
         </div>
     </nav>
 
+
+
+    <!-- JavaScript para los dropdowns -->
+    <script>
+
+    </script>
+
+    <?php
+    // Función para generar los breadcrumbs basados en la URL actual
+    function generateBreadcrumbs() {
+        // Obtener la ruta de la URL actual
+        $url = $_SERVER['REQUEST_URI'];
+
+        // Dividir la URL en segmentos
+        $segments = explode('/', trim($url, '/'));
+
+        // Inicializar una variable para almacenar los breadcrumbs
+        $breadcrumbs = '';
+
+        // Construir los breadcrumbs basados en los segmentos de la URL
+        foreach ($segments as $key => $segment) {
+            $breadcrumbs .= '<a href="/' . implode('/', array_slice($segments, 0, $key + 1)) . '">' . ucwords(str_replace('-', ' ', $segment)) . '</a>';
+
+            // Agregar separador si no es el último segmento
+            if ($key < count($segments) - 1) {
+                $breadcrumbs .= ' > ';
+            }
+        }
+
+        // Imprimir los breadcrumbs
+        echo '<div class="breadcrumbs">' . $breadcrumbs . '</div>';
+    }
+
+    // Llamar a la función para generar los breadcrumbs
+    generateBreadcrumbs();
+    ?>
+
 </body>
 <!-- Scripts JavaScript y Bootstrap -->
-<script src="{{ asset('js/navbar.js') }}"></script>
+
 </html>
