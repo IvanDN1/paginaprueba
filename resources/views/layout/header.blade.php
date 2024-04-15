@@ -22,7 +22,7 @@
         </div>
         <div class="carousel-inner">
             @for ($i = 1; $i <= 3; $i++)
-                <div class="carousel-item @if ($i === 1) active @endif justify-content-center align-items-center">
+                <div class="carousel-item @if ($i === 1) active @endif align-items-rigth">
                     <img src="{{ asset('images/foto'.$i.'.jpeg') }}" class="d-block w-100" alt="Foto {{ $i }}">
                 </div>
             @endfor
