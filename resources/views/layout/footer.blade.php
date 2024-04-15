@@ -35,8 +35,6 @@
                             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary nav-link-custom">Home1</a></li>
                             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary nav-link-custom">Features1</a></li>
                             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary nav-link-custom">Pricing1</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary nav-link-custom">FAQs1</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary nav-link-custom">About1</a></li>
                         </ul>
                 </div>
                 <div class="col-6 col-md-2 mb-3 custom-section">
@@ -45,8 +43,6 @@
                             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary nav-link-custom">Home2</a></li>
                             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary nav-link-custom">Features2</a></li>
                             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary nav-link-custom">Pricing2</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary nav-link-custom">FAQs2</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary nav-link-custom">About2</a></li>
                         </ul>
                 </div>
                     <form class="col-md-6 contenedor-largo" >
