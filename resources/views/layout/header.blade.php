@@ -14,24 +14,24 @@
 
 </head>
 <body>
-    <div id="carouselExampleIndicators" class="carousel slide"  data-interval="false" data-bs-ride="carousel">
+    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
         <div class="carousel-indicators" >
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 0"></button>
+            <button type="button" data-bs-target="#myCarouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarouselIndicators" data-bs-slide-to="2" aria-label="Slide 0"></button>
         </div>
-        <div class="carousel-inner" >
+        <div class="carousel-inner">
             @for ($i = 1; $i <= 3; $i++)
-                <div class="carousel-item @if ($i === 1) active @endif">
+                <div class="carousel-item @if ($i === 1) active @endif justify-content-center align-items-center">
                     <img src="{{ asset('images/foto'.$i.'.jpeg') }}" class="d-block w-100" alt="Foto {{ $i }}">
                 </div>
             @endfor
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarouselIndicators" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarouselIndicators" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
