@@ -2,7 +2,7 @@
 .navbar-custom {
     display: flex;
     align-items: center;
-    background-color: #116506;
+    background-color: #1b9a0a;
     color: #fff;
     padding: 10px 20px;
     grid-auto-flow: column;
@@ -30,7 +30,7 @@
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #116506;
+    background-color: #137806;
     min-width: 120px;
     z-index: 1;
 }

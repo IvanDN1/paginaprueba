@@ -1,14 +1,22 @@
-.carousel-item img {
-    object-fit: cover;
+.carousel {
+    background-color: #5cb24c;
+}
+
+.carousel-inner{
     align-content: center;
+}
+.carousel-item{
     max-width: 1080px;
     max-height: 720px;
     width: 100%;
     height: 100%;
+    object-fit:contain;
+}
+
+.carousel-inner{
+    justify-content: center;
 }
 
 
-.carousel {
-    background-color: #5cb24c;
-}
+
 
