@@ -45,24 +45,13 @@
                             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary nav-link-custom">Pricing2</a></li>
                         </ul>
                 </div>
-                    <form class="col-md-6 contenedor-largo" >
-                        <div>
-                        <h5>¡¡Contactanos!!</h5>
-                            <p>Envianos tu correo para mas información</p>
-                        </div>
-                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                            <input id="newsletter1" type="text" class="form-control flex-grow-3" placeholder="Dirección de Correo Electronico">
-                            <button class="btn btn-outline-light my-2 my-sm-0 custom-btn btn-lg" type="submit">Buscar</button>
-                        </div>
-                    </form>
-                </div>
                 <div class="d-flex flex-column flex-sm-row justify-content-between py-0 my-2 border-top">
                     <div class="col-md-4 d-flex align-items-center">
                         <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
                           <svg class="bi" width="30" height="24"><use xlink:href="bootstrap"></use></svg>
                         </a>
-                        <span class="mb-3 mb-md-0 text-body-secondary text-white">© 2024 Company, Inc</span>
-                    </div>
+                        <span class="mb-3 mb-md-0 text-body-secondary text-blue"> © 2024 Company, Inc</span>
+                </div>
                     <div>
                         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
                             <li class="ms-3"><a class="link-body-emphasis" href="https:/twitter.com/"><svg class="bi" width="24" height="24"><use xlink:href="twitter.com"></use></svg></a></li>
@@ -75,9 +64,4 @@
         </div
     </footer>
 </body>
-
-    <!-- Scripts JavaScript y Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </html>

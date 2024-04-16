@@ -15,44 +15,69 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-function generateBreadcrumbs() {
-    // Obtener la ruta de la URL actual
-    var url = window.location.pathname;
+// vanish event for long pages
 
-    // Dividir la URL en segmentos
-    var segments = url.split('/').filter(function(segment) {
-        return segment.trim() !== '';
-    });
+window.addEventListener('DOMContentLoaded', event => {
 
-    // Inicializar una variable para almacenar los breadcrumbs
-    var breadcrumbs = '';
-
-    // Construir los breadcrumbs basados en los segmentos de la URL
-    segments.forEach(function(segment, key) {
-        breadcrumbs += '<a href="/' + segments.slice(0, key + 1).join('/') + '">' + segment.replace(/-/g, ' ').replace(/\b\w/g, function(char) {
-            return char.toUpperCase();
-        }) + '</a>';
-
-        // Agregar separador si no es el último segmento
-        if (key < segments.length - 1) {
-            breadcrumbs += ' > ';
+    // Navbar shrink function
+    var navbarShrink = function () {
+        const navbarCollapsible = document.body.querySelector('#navbarResponsive');
+        if (!navbarCollapsible) {
+            return;
         }
+        if (window.scrollY === 0) {
+            navbarCollapsible.classList.remove('navbar-shrink')
+        } else {
+            navbarCollapsible.classList.add('navbar-shrink')
+        }
+
+    };
+
+    // Shrink the navbar
+    navbarShrink();
+
+    // Shrink the navbar when page is scrolled
+    document.addEventListener('scroll', navbarShrink);
+
+    // Activate Bootstrap scrollspy on the main nav element
+    const mainNav = document.body.querySelector('#navbarResponsive');
+    if (mainNav) {
+        new bootstrap.ScrollSpy(document.body, {
+            target: '#navbarResponsive',
+            rootMargin: '0px 0px -40%',
+        });
+    };
+
+    // Collapse responsive navbar when toggler is visible
+    const navbarToggler = document.body.querySelector('.navbar-toggler');
+    const responsiveNavItems = [].slice.call(
+        document.querySelectorAll('#navbarResponsive .nav-link')
+    );
+    responsiveNavItems.map(function (responsiveNavItem) {
+        responsiveNavItem.addEventListener('click', () => {
+            if (window.getComputedStyle(navbarToggler).display !== 'none') {
+                navbarToggler.click();
+            }
+        });
     });
 
-    // Crear un elemento div para contener los breadcrumbs
-    var breadcrumbsContainer = document.createElement('div');
-    breadcrumbsContainer.classList.add('breadcrumbs');
-    breadcrumbsContainer.innerHTML = breadcrumbs;
+});
 
-    // Obtener el elemento donde se van a mostrar los breadcrumbs
-    var breadcrumbsParent = document.querySelector('.breadcrumbs-parent');
 
-    // Limpiar el contenido existente
-    breadcrumbsParent.innerHTML = '';
+document.addEventListener('DOMContentLoaded', function () {
+    const navbar = document.getElementById('navbarResponsive');
+    const sections = document.querySelectorAll('.section');
 
-    // Agregar los breadcrumbs al elemento padre
-    breadcrumbsParent.appendChild(breadcrumbsContainer);
-}
+    window.addEventListener('scroll', function () {
+        const scrollPosition = window.scrollY + window.innerHeight;
 
-// Llamar a la función para generar los breadcrumbs al cargar la página
-document.addEventListener('DOMContentLoaded', generateBreadcrumbs);
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            if (scrollPosition > sectionTop) {
+                navbar.style.display = 'none';
+            } else {
+                navbar.style.display = 'block';
+            }
+        });
+    });
+});

@@ -1,24 +1,23 @@
 
 .navbar-custom {
     display: flex;
-    align-items: center;
     background-color: #1b9a0a;
-    color: #fff;
+    color: #ffffff;
     padding: 10px 20px;
     grid-auto-flow: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
-.nav-links {
+.nav-link {
     list-style-type: none;
     display: flex;
-
 }
-
-.nav-links li {
+.navbar li {
     margin-right: 20px;
-}
-
-.nav-links li a {
     color: #fff;
     text-decoration: none;
 }
@@ -41,13 +40,30 @@
 
 .nav-buttons a {
     margin-left: 10px;
-    color: #fff;
+    color: #34d8ed;
     text-decoration: none;
 }
 
 /* Estilos opcionales para el logo */
 .logo a {
-    color: #fff;
+    color: #34d8ed;
     text-decoration: none;
     font-size: 1.5em;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.section {
+    padding: 50px 20px;
+    background-color: aquamarine;
 }
