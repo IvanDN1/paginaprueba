@@ -1,7 +1,7 @@
 
 .navbar-custom {
     display: flex;
-    background-color: #1b9a0a;
+    background-color: #4cd13a;
     color: #ffffff;
     padding: 10px 20px;
     grid-auto-flow: column;
@@ -29,7 +29,7 @@
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #137806;
+    background-color: #3bc628;
     min-width: 120px;
     z-index: 1;
 }
@@ -45,10 +45,9 @@
 }
 
 /* Estilos opcionales para el logo */
-.logo a {
-    color: #34d8ed;
-    text-decoration: none;
-    font-size: 1.5em;
+.logo LogoATE {
+    max-width: 100px; /* Cambia el valor según tus necesidades */
+    max-height: 50px; /* Cambia el valor según tus necesidades */
 }
 
 body {
