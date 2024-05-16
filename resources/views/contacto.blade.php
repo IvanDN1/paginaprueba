@@ -8,7 +8,7 @@
             <div class="text-center mb-5">
                 <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
                 <h1 class="fw-bolder">Contactanos</h1>
-                <p class="lead fw-normal text-muted mb-0">envianos tu información</p>
+                <p class="lead fw-normal text-muted mb-0">Ingresa tu informacion</p>
             </div>
             <div class="row gx-5 justify-content-center">
                 <div class="col-lg-8 col-xl-6">
@@ -18,38 +18,38 @@
                     <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                         <!-- Name input-->
                         <div class="form-floating mb-3">
-                            <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                            <input class="form-control" id="name" type="text" placeholder="Ingresa tu Nombre..." data-sb-validations="required" />
                             <label for="name">Nombres</label>
                             <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                         </div>
                         <div class="form-floating mb-3">
-                            <input class="form-control" id="LastnameP" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                            <label for="name">Apellido Paterno</label>
-                            <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            <input class="form-control" id="LastnameP" type="text" placeholder="Ingresa tu primer Apellido..." data-sb-validations="required" />
+                            <label for="LastnameP">Primer Apellido</label>
+                            <div class="invalid-feedback" data-sb-feedback="LastnameP:required">Se requiere primer apellido.</div>
                         </div>
                         <div class="form-floating mb-3">
-                            <input class="form-control" id="LastnameM" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                            <label for="name">Apellido Materno</label>
-                            <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            <input class="form-control" id="LastnameM" type="text" placeholder="Ingresa tu Segundo Apellido..." data-sb-validations="required" />
+                            <label for="LastnameM">Segundo Apellido</label>
+                            <div class="invalid-feedback" data-sb-feedback="LastnameM:required">Se requiere su segundo apellido.</div>
                         </div>
                         <!-- Email address input-->
                         <div class="form-floating mb-3">
                             <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
                             <label for="email">Correo</label>
-                            <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                            <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            <div class="invalid-feedback" data-sb-feedback="email:required">Ingrese un Correo.</div>
+                            <div class="invalid-feedback" data-sb-feedback="email:email">el Correo es invalido.</div>
                         </div>
                         <!-- Phone number input-->
                         <div class="form-floating mb-3">
                             <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
                             <label for="phone">Número de Contacto</label>
-                            <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            <div class="invalid-feedback" data-sb-feedback="phone:required">Se requiere un Numero de Contacto.</div>
                         </div>
                         <!-- Message input-->
                         <div class="form-floating mb-3">
-                            <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                            <label for="message">Dejanos tu mensaje</label>
-                            <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            <textarea class="form-control" id="message" type="text" placeholder="Ingrese su mensaje aca..." style="height: 10rem" data-sb-validations="required"></textarea>
+                            <label for="message">Mensaje</label>
+                            <div class="invalid-feedback" data-sb-feedback="message:required">Se requiere mensaje.</div>
                         </div>
                         <!-- Submit success message-->
                         <!---->

@@ -10,10 +10,6 @@
     <!-- Enlaces a fuentes de iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Document</title>
-
-    <style>
-
-    </style>
 </head>
 <body>
         <!-- Footer -->

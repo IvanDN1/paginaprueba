@@ -11,7 +11,6 @@
 
 </head>
 <body>
-
     <nav class="navbar navbar-expand-lg navbar-custom" id="navbarResponsive">
         <div class="container">
             <img src="/images/LogoATE.png" alt="Logo de la empresa" id="LogoATE">
@@ -28,7 +27,5 @@
                 </ul>
         </div>
     </nav>
-
 </body>
-
 </html>

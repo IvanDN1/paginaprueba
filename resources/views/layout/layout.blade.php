@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="{{ asset('css/nosotros.css') }}" rel="stylesheet">
-    <<link href="{{ asset('js/migas.css') }}" rel="stylesheet">
+    <link href="{{ asset('js/migas.css') }}" rel="stylesheet">
 
     <title>{{ $title ?? 'Mi Sitio Web' }}</title>
 </head>
