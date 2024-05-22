@@ -5,6 +5,12 @@
     grid-row: auto;
 }
 
+.bg-gradient-primary-to-secondary3 {
+    background: hsl(108, 81%, 48%);
+    background: linear-gradient(135deg, hsl(153, 100%, 51%) 0%, hsl(200, 90%, 76%) 100%);
+    font-size: 50;
+}
+
 .custom-btn {
     background-color: #1a065a; /* Cambia el color de fondo del botón */
     color: #fff; /* Cambia el color del texto del botón */
@@ -16,6 +22,9 @@
 .footer .nav-link {
     color: #fff !important;
 }
-.text-white {
-    color: #ffffff; /* Color blanco */
+
+.footer a{
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serifS;
+    width: 50%;
 }

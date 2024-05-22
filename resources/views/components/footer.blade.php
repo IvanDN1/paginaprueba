@@ -13,10 +13,10 @@
 </head>
 <body>
         <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer bg-gradient-primary-to-secondary3">
         <div class="container">
             <div class="row">
-                <div class="col-6 col-md-2 mb-3 custom-section">
+                <div class="col-6 col-md-2 mb-3 custom-section ">
                     <ul class="nav flex-column">
                         <ul class="nav flex-column">
                             <li class="nav-item mb-2"><a href="/" class="nav-link p-0 text-body-secondary nav-link-custom"><H6>INICIO</H6></a></li>
@@ -45,9 +45,9 @@
                 <div class="d-flex flex-column flex-sm-row justify-content-between py-0 my-2 border-top">
                     <div class="col-md-4 d-flex align-items-center">
                         <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-                          <svg class="bi" width="30" height="24"><use xlink:href="bootstrap"></use></svg>
+                          <svg class="bi" width="50" height="50"><use xlink:href="bootstrap"></use></svg>
                         </a>
-                        <span class="mb-3 mb-md-0 text-body-secondary text-white"> © 2024 Company, Inc</span>
+                        <span class="mb-2 mb-md-0 text-body-secondary text-white"> © 2024 Company, Inc</span>
                 </div>
                 </div>
             </div>

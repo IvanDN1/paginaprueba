@@ -71,6 +71,9 @@
                         <!-- Submit Button-->
                         <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
                     </form>
+                    <div>
+                        <p class="lead fw-normal text-muted mb-0">Puedes llamano al +41-2513199 o +56964016557</p>
+                    </div>
                 </div>
             </div>
         </div>

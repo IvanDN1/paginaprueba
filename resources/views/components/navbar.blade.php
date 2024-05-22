@@ -11,9 +11,12 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-custom" id="navbarResponsive">
+
+    <nav class="navbar navbar-expand-lg navbar-custom bg-gradient-primary-to-secondary3" id="navbarResponsive">
         <div class="container">
-            <img src="/images/LogoATE.png" alt="Logo de la empresa" id="LogoATE">
+            <a href="https://www.tmcorporacion.cl/" class="navbar-brand d-none d-md-flex align-items-center m-0 mr- 4 p-0 aabtn">
+                <img src="/images/LogoATE.png" alt="Logo de la empresa"  class="Logo mr-1" id="LogoATE" >
+            </a>
                 <ul class="navbar-nav mr-auto align-rigth">
                     <li class="nav-item active">
                         <a class="nav-link" href="/"><H5>INICIO</H5><span class="sr-only">(current)</span></a>

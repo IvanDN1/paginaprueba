@@ -12,47 +12,31 @@
     z-index: 1000;
 }
 
+.bg-gradient-primary-to-secondary3 {
+    background: hsl(108, 100%, 67%);
+    background: linear-gradient(135deg, hsl(125, 65%, 52%) 0%, hsl(127, 100%, 35%) 100%);
+    font-size: 50;
+}
+
+
 .nav-link {
     list-style-type: none;
     display: flex;
 }
 .navbar li {
     margin-right: 20px;
-    color: #fff;
-    text-decoration: none;
+    text-decoration: white;
 }
+.navbar a{
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
-.dropdown {
-    position: relative;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #3bc628;
-    min-width: 120px;
-    z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.nav-buttons a {
-    margin-left: 10px;
-    color: #34d8ed;
-    text-decoration: none;
 }
 
 /* Estilos opcionales para el logo */
 .logo LogoATE {
-    max-width: 100px; /* Cambia el valor según tus necesidades */
-    max-height: 50px; /* Cambia el valor según tus necesidades */
-}
-
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+    max-width: 20px; /* Cambia el valor según tus necesidades */
+    max-height: 20px; /* Cambia el valor según tus necesidades */
 }
 
 .navbar ul {
@@ -60,9 +44,4 @@ body {
     list-style-type: none;
     padding: 0;
     margin: 0;
-}
-
-.section {
-    padding: 50px 20px;
-    background-color: aquamarine;
 }

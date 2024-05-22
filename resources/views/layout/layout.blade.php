@@ -41,13 +41,9 @@ function generateBreadcrumbs() {
 // Llamar a la función para generar los breadcrumbs
 generateBreadcrumbs();
 ?>
-    <div class="container">
         @yield('content')
-    </div>
 @include('components.footer')
 </body>
-
-
 </html>
 
 
