@@ -13,7 +13,7 @@
 </head>
 <body>
         <!-- Footer -->
-    <footer class="footer bg-gradient-primary-to-secondary3">
+    <footer class="footer bg-gradient-primary-to-secondary6">
         <div class="container">
             <div class="row">
                 <div class="col-6 col-md-2 mb-3 custom-section ">
@@ -32,15 +32,6 @@
                             <li class="nav-item mb-2"><a href="/contacto" class="nav-link p-0 text-body-secondary nav-link-custom"><H6>CONTACTO</H6></a></li>
                             <li class="nav-item mb-2"><a href="/nosotros" class="nav-link p-0 text-body-secondary nav-link-custom"><H6>NOSOTROS</H6></a></li>
                         </ul>
-                </div>
-                <div class="col-6 col-md-2 mb-3 custom-section">
-                    <h4>SECCION</h4>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="/" class="nav-link p-0 text-body-secondary nav-link-custom"><H6>INICIO</H6></a></li>
-                        <li class="nav-item mb-2"><a href="/cursos" class="nav-link p-0 text-body-secondary nav-link-custom"><H6>CURSOS</H6></a></li>
-                        <li class="nav-item mb-2"><a href="/contacto" class="nav-link p-0 text-body-secondary nav-link-custom"><H6>CONTACTO</H6></a></li>
-                        <li class="nav-item mb-2"><a href="/nosotros" class="nav-link p-0 text-body-secondary nav-link-custom"><H6>NOSOTROS</H6></a></li>
-                    </ul>
                 </div>
                 <div class="d-flex flex-column flex-sm-row justify-content-between py-0 my-2 border-top">
                     <div class="col-md-4 d-flex align-items-center">

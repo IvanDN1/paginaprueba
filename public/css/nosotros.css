@@ -15,24 +15,24 @@ p{
 
 .bg-gradient-primary-to-secondary {
     background: #4b58e8;
-    background: linear-gradient(135deg, hsl(223, 100%, 29%) 0%, hsl(200, 100%, 69%) 100%);
+    background: linear-gradient(135deg, hsl(223, 100%, 29%) 0%, hsl(275, 100%, 46%) 100%);
     font-size: 90;
 }
 
 .bg-gradient-primary-to-secondary2 {
     background: hsl(132, 95%, 15%);
-    background: linear-gradient(135deg, hsl(120, 95%, 62%) 0%, hsl(187, 100%, 73%) 100%);
+    background: linear-gradient(135deg, hsl(178, 100%, 50%) 0%, hsl(110, 100%, 50%) 100%);
     font-size: 80;
  }
 
 .bg-gradient-primary-to-secondary4 {
     background: hsl(155, 99%, 38%);
-    background: linear-gradient(135deg, hsl(107, 85%, 64%) 0%, hsl(150, 100%, 76%) 100%);
+    background: linear-gradient(135deg, hsl(133, 100%, 50%) 0%, hsl(216, 95%, 65%) 100%);
     font-size: 50;
 }
 .bg-gradient-primary-to-secondary5 {
-    background: hsl(192, 98%, 32%);
-    background: linear-gradient(135deg, hsl(238, 100%, 62%) 0%, hsl(169, 100%, 49%) 100%);
+    background: hsl(165, 97%, 49%);
+    background: linear-gradient(135deg, hsl(119, 100%, 50%) 0%, hsl(155, 100%, 54%) 100%);
     font-size: 50;
 }
 

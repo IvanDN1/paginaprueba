@@ -31,9 +31,6 @@
     bottom: 20px; /* Ajusta la distancia del botón al fondo */
     right: 20px; /* Ajusta la distancia del botón al borde derecho */
     padding: 10px 20px; /* Ajusta el relleno del botón */
-    background-color: #007bff; /* Color de fondo del botón */
-    color: #fff; /* Color del texto del botón */
-    border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
