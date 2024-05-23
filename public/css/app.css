@@ -1,9 +1,67 @@
 body{
-background-color: greenyellow;
-
+    background-color: rgb(117, 233, 111);
+    background: linear-gradient(135deg, rgb(58, 109, 197) 0%, rgb(53, 204, 40) 100%);
+    font-size: 90;
 }
-.bg-gradient-primary-to-secondary4 {
-    background: hsl(155, 99%, 38%);
-    background: linear-gradient(135deg, hsl(107, 99%, 54%) 0%, hsl(216, 91%, 42%) 100%);
+
+.bg-gradient-primary-to-secondary {
+    background: rgb(131, 232, 54);
+    background: linear-gradient(135deg, rgb(41, 0, 122) 0%, rgb(199, 0, 179) 100%);
+    font-size: 90;
+}
+
+.bg-gradient-primary-to-secondary2 {
+    background: rgb(55, 255, 0);
+    background: linear-gradient(135deg, rgb(111, 221, 71) 0%, rgb(41, 195, 36) 100%);
+    font-size: 80;
+ }
+
+.bg-gradient-primary-to-secondary3 {
+    background: rgb(13, 217, 94);
+    background: linear-gradient(135deg, rgb(72, 72, 182) 0%, rgb(23, 167, 52) 100%);
     font-size: 50;
 }
+
+.bg-gradient-primary-to-secondary4 {
+    background: rgb(28, 165, 0);
+    background: linear-gradient(135deg, rgb(38, 209, 72) 0%, rgb(125, 216, 178) 100%);
+    font-size: 50;
+}
+.bg-gradient-primary-to-secondary5 {
+    background: hsl(165, 97%, 49%);
+    background: linear-gradient(135deg, rgb(0, 255, 51  ) 0%, rgb(18, 219, 135) 100%);
+    font-size: 50;
+}
+
+.bg-gradient-primary-to-secondary6 {
+    background: hsl(147, 100%, 59%);
+    background: linear-gradient(135deg, rgb(0, 255, 51) 0%, rgb(57, 207, 207) 100%);
+    font-size: 50;
+}
+.bg-gradient-primary-to-secondary7 {
+    background: hsl(52, 100%, 30%);
+    background: linear-gradient(135deg, rgb(0, 255, 51) 0%, rgb(29, 209, 149) 100%);
+    font-size: 50;
+}
+
+p{
+    text-align: justify;
+    font-style: monospace;
+    font-size: 23px;
+    margin-bottom: 20px;
+    color:#333331;
+}
+
+.h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-style: unset;
+    size: 25px;
+}
+
+.h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+

@@ -1,8 +1,6 @@
 
 .navbar-custom {
     display: flex;
-    background-color: #4cd13a;
-    color: #ffffff;
     padding: 10px 20px;
     grid-auto-flow: column;
     position: fixed;
@@ -11,32 +9,22 @@
     width: 100%;
     z-index: 1000;
 }
-
-.bg-gradient-primary-to-secondary3 {
-    background: hsl(144, 93%, 39%);
-    background: linear-gradient(135deg, hsl(182, 100%, 82%) 0%, hsl(119, 60%, 50%) 100%);
-    font-size: 50;
-}
-
-
 .nav-link {
     list-style-type: none;
     display: flex;
 }
 .navbar li {
     margin-right: 20px;
-    text-decoration: white;
+    text-decoration: rgb(24, 0, 180);
 }
 .navbar a{
-    color:white;
+    color:rgb(255, 255, 255);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
-
-/* Estilos opcionales para el logo */
-.logo LogoATE {
-    max-width: 20px; /* Cambia el valor según tus necesidades */
-    max-height: 20px; /* Cambia el valor según tus necesidades */
+.logo #LogoATE {
+    max-width: 50%; /* Cambia el valor según tus necesidades */
+    max-height: 50%; /* Cambia el valor según tus necesidades */
 }
 
 .navbar ul {

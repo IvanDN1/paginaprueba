@@ -5,12 +5,12 @@
     overflow: hidden;
     width: 100%;
     height: 300px; /* ajusta la altura según tu diseño */
-    background-color: #5cb24c; /* Fondo verde claro */
+    background-color: #3ff35d; /* Fondo verde claro */
 }
 
 .carousel-item {
     position: relative;
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -37,7 +37,7 @@
 }
 
 .carousel-button:hover {
-    background-color: #0056b3; /* Color de fondo del botón al pasar el mouse */
+    background-color: #17d89b; /* Color de fondo del botón al pasar el mouse */
 }
 
 /* Estilos para el carousel */
