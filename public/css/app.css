@@ -6,62 +6,73 @@ body{
 
 .bg-gradient-primary-to-secondary {
     background: rgb(131, 232, 54);
-    background: linear-gradient(135deg, rgb(41, 0, 122) 0%, rgb(199, 0, 179) 100%);
+    background: linear-gradient(135deg, rgb(226, 108, 108) 0%, rgb(62, 36, 92) 100%);
     font-size: 90;
 }
 
 .bg-gradient-primary-to-secondary2 {
-    background: rgb(55, 255, 0);
-    background: linear-gradient(135deg, rgb(111, 221, 71) 0%, rgb(41, 195, 36) 100%);
+    background: rgb(58, 109, 197);
+    background: linear-gradient(135deg, rgb(58, 109, 197) 0%, rgb(54, 149, 122) 100%);
     font-size: 80;
  }
 
 .bg-gradient-primary-to-secondary3 {
-    background: rgb(13, 217, 94);
-    background: linear-gradient(135deg, rgb(72, 72, 182) 0%, rgb(23, 167, 52) 100%);
+    background: rgb(59, 174, 105);
+    background: linear-gradient(135deg, rgb(95, 155, 192) 0%, rgb(87, 210, 130) 100%);
     font-size: 50;
 }
 
 .bg-gradient-primary-to-secondary4 {
-    background: rgb(28, 165, 0);
-    background: linear-gradient(135deg, rgb(38, 209, 72) 0%, rgb(125, 216, 178) 100%);
+    background: rgb(123, 226, 102);
+    background: linear-gradient(135deg, rgb(84, 146, 184) 0%, rgb(121, 201, 114) 100%);
     font-size: 50;
 }
 .bg-gradient-primary-to-secondary5 {
     background: hsl(165, 97%, 49%);
-    background: linear-gradient(135deg, rgb(0, 255, 51  ) 0%, rgb(18, 219, 135) 100%);
+    background: linear-gradient(135deg, rgb(83, 162, 180) 0%, rgb(137, 208, 158) 100%);
     font-size: 50;
 }
 
 .bg-gradient-primary-to-secondary6 {
     background: hsl(147, 100%, 59%);
-    background: linear-gradient(135deg, rgb(0, 255, 51) 0%, rgb(57, 207, 207) 100%);
+    background: linear-gradient(135deg, rgb(23, 19, 85) 0%, rgb(151, 210, 208) 100%);
     font-size: 50;
 }
 .bg-gradient-primary-to-secondary7 {
     background: hsl(52, 100%, 30%);
-    background: linear-gradient(135deg, rgb(0, 255, 51) 0%, rgb(29, 209, 149) 100%);
+    background: linear-gradient(135deg, rgb(62, 36, 92) 0%, rgb(221, 91, 91) 100%);
     font-size: 50;
 }
 
 p{
     text-align: justify;
     font-style: monospace;
-    font-size: 23px;
+    font-size: 25px;
     margin-bottom: 20px;
-    color:#333331;
+    color:#a4d07e;
+}
+
+.a {
+    margin-right: 20px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 .h1{
     text-align: center;
     margin-bottom: 20px;
     font-style: unset;
-    size: 25px;
+    font-size: 65px;
+    color:white;
 }
 
-.h2{
+.h2 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: small;
+    font-size: 25px;
+    color: blue;
 }
-
+.mi-clase {
+    width: 300px;
+    height: 300px;
+}

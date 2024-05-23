@@ -3,18 +3,20 @@
     grid-row: auto;
 }
 .nav-link-custom {
-    color: #1a065a;
+    color: #a48bf5;
 }
 .footer .nav-link {
     color: #ffffff !important;
+    display: flex;
 }
 
 .footer a{
-    color:rgb(255, 255, 255);
-    font-family: Georgia, Times, 'Times New Roman';
     width: 1%;
+    color:rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .footer span{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
 }
