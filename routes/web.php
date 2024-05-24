@@ -19,7 +19,6 @@ use App\Http\Controllers\InformativaController;
 
 Route::get('/', [InformativaController::class, 'welcome'])->name('home');
 Route::get('/contacto', [InformativaController::class, 'contacto'])->name('contacto');
-Route::get('/cursos', [InformativaController::class, 'cursos'])->name('cursos');
 Route::get('/nosotros', [InformativaController::class, 'nosotros'])->name('nosotros');
 
 

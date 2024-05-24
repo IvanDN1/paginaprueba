@@ -16,11 +16,6 @@ public function contacto()
     return view('contacto');
 }
 
-public function cursos()
-{
-    return view('cursos');
-}
-
 public function nosotros()
 {
     return view('nosotros');

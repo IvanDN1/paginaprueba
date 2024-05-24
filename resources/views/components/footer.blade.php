@@ -32,7 +32,7 @@
             </div>
             <div class="d-flex flex-column flex-sm-row justify-content-between py-0 my-2 border-top">
                 <div class="col-md-4 d-flex align-items-center">
-                    <span class="mb-2 mb-md-0 custom-span">©2024 Company, Inc</span>
+                    <span class="mb-2 mb-md-0 custom-span">©2024 TMCorporación, Inc</span>
                 </div>
             </div>
         </div>
