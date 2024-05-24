@@ -11,7 +11,7 @@
 </head>
 <body>
 @include('components.navbar')
-<div class="container-fluid bg-gradient-primary-to-secondary2">
+<div class="container-fluid bg-gradient-primary-to-secondary2 border-">
     @include('components.header')
     <?php
     // Función para generar los breadcrumbs basados en la URL actual

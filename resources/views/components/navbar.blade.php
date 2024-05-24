@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/navbar.css') }}" rel="stylesheet">
     <link href="{{ asset('js/navbar.js') }}" rel="stylesheet">
-    <!-- Estilos de Bootstrap -->
 
-</head>
-<body>
+
     <nav class="navbar navbar-expand-lg navbar-custom bg-gradient-primary-to-secondary" id="navbarResponsive">
         <div class="container">
             <a href="https://www.tmcorporacion.cl/" class="navbar-brand d-none d-md-flex align-items-center m-0 mr- 4 p-0 aabtn">
@@ -29,5 +22,3 @@
             </ul>
         </div>
     </nav>
-</body>
-</html>
