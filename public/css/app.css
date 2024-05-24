@@ -1,24 +1,24 @@
 body{
     background-color: rgb(117, 233, 111);
-    background: linear-gradient(135deg, rgb(58, 109, 197) 0%, rgb(53, 204, 40) 100%);
+    background: linear-gradient(135deg, rgb(226, 91, 91) 0%, rgb(226, 91, 91) 100%);
     font-size: 90;
 }
 
 .bg-gradient-primary-to-secondary {
     background: rgb(131, 232, 54);
-    background: linear-gradient(135deg, rgb(226, 108, 108) 0%, rgb(62, 36, 92) 100%);
+    background: linear-gradient(135deg, rgb(226, 108, 108) 0%, rgb(226, 91, 91) 100%);
     font-size: 90;
 }
 
 .bg-gradient-primary-to-secondary2 {
     background: rgb(58, 109, 197);
-    background: linear-gradient(135deg, rgb(58, 109, 197) 0%, rgb(54, 149, 122) 100%);
+    background: linear-gradient(135deg, rgb(226, 108, 108) 0%, rgb(226, 91, 91) 100%);
     font-size: 80;
  }
 
 .bg-gradient-primary-to-secondary3 {
     background: rgb(59, 174, 105);
-    background: linear-gradient(135deg, rgb(95, 155, 192) 0%, rgb(87, 210, 130) 100%);
+    background: linear-gradient(135deg, rgb(164, 110, 2) 0%, rgb(211, 212, 195) 100%);
     font-size: 50;
 }
 
@@ -49,7 +49,7 @@ p{
     font-style: monospace;
     font-size: 25px;
     margin-bottom: 20px;
-    color:#a4d07e;
+    color:#e1fbcb;
 }
 
 .a {
@@ -63,14 +63,14 @@ p{
     margin-bottom: 20px;
     font-style: unset;
     font-size: 65px;
-    color:white;
+    color:rgb(3, 127, 36);
 }
 
 .h2 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
-    color: blue;
+    color: rgb(14, 14, 18);
 }
 .mi-clase {
     width: 300px;
