@@ -17,7 +17,7 @@
             <div class="col-6 col-md-2 mb-3 custom-section">
                 <ul class="nav flex-column">
                     <li class="nav-item"><a href="https://tmcapacitacion.cl/" class="nav-link p-0 text-body-secondary nav-link-custom"><H6>TMCAPACITACIÓN</H6></a></li>
-                    <li class="nav-item"><a href="/contacto" class="nav-link p-0 text-body-secondary nav-link-custom"><H6>CONTACTO</H6></a></li>
+                    <li class="nav-item"><a href="/Contacto/index" class="nav-link p-0 text-body-secondary nav-link-custom"><H6>CONTACTO</H6></a></li>
                     <li class="nav-item"><a href="/nosotros" class="nav-link p-0 text-body-secondary nav-link-custom"><H6>NOSOTROS</H6></a></li>
                 </ul>
             </div>

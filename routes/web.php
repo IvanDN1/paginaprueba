@@ -1,8 +1,11 @@
 <?php
 
-use App\Http\Controllers\CursosController;
+use App\Http\Controllers\ContactoController;
+use App\Mail\ContactoMailable;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\InformativaController;
+use Illuminate\Support\Facades\Mail;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,9 +21,18 @@ use App\Http\Controllers\InformativaController;
 /* rutas principales*/
 
 Route::get('/', [InformativaController::class, 'welcome'])->name('home');
-Route::get('/contacto', [InformativaController::class, 'contacto'])->name('contacto');
-Route::get('/nosotros', [InformativaController::class, 'nosotros'])->name('nosotros');
+Route::view('/nosotros', [InformativaController::class, 'nosotros'])->name('nosotros');
 
+
+Route::get('Contacto}', function() {
+
+    Mail::to('practicas@tmcapacitacion.cl')->send(new ContactoMailable(''));
+    //
+});
+
+
+Route::get('/Contacto/index', [ContactoController::class, 'contacto'])->name('contacto');
+Route::post('/Contacto/store', [ContactoController::class, 'contacto'])->name('contacto');
 
 
 

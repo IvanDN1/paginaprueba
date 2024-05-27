@@ -11,10 +11,6 @@ public function welcome()
     return view('welcome');
 }
 
-public function contacto()
-{
-    return view('contacto');
-}
 
 public function nosotros()
 {

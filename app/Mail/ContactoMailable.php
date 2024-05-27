@@ -6,6 +6,7 @@ use Faker\Provider\de_CH\Address;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
+use Illuminate\Mail\Mailables\Address as MailablesAddress;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
@@ -17,9 +18,11 @@ class ContactoMailable extends Mailable
     /**
      * Create a new message instance.
      */
-    public function __construct()
+
+     public $data;
+    public function __construct($data)
     {
-        //
+        $this->$data = $data;
     }
 
     /**
@@ -28,7 +31,7 @@ class ContactoMailable extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Contactanos',
+            subject: 'Informacion de Contacto',
         );
     }
 
@@ -38,7 +41,7 @@ class ContactoMailable extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'view.contacto',
+            view: 'Contactanos.index',
         );
     }
 
