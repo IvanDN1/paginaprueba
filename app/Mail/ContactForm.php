@@ -2,50 +2,50 @@
 
 namespace App\Mail;
 
-use Faker\Provider\de_CH\Address;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
-use Illuminate\Mail\Mailables\Address as MailablesAddress;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 
-class ContactoMailable extends Mailable
+class ContactForm extends Mailable
 {
     use Queueable, SerializesModels;
-
+    public $data;
     /**
-     * Create a new message instance.
+     * data o informacion que se envia al correo
      */
-
-     public $data;
     public function __construct($data)
     {
         $this->data = $data;
     }
 
+    /**envio de la data*/
+
     public function build()
     {
-        return $this->from('no-reply@pruebas.com', 'Automated System for Sending Notifications')->subject('A user send you a new message')->view('email.contact-form', ['data' => $this->data]);
+        return $this->from('practicas@tmcapacitacion.cl', 'Automated System for Sending Notifications'
+        )->subject('A user send you a new message')->view('email.contact-form', ['data' => $this->data]);
     }
+
     /**
      * Get the message envelope.
      */
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Informacion de Contacto',
+            subject: 'ContactForm',
         );
     }
 
     /**
-     * Get the message content definition.
+     * vista del formulario con los datos a enviar
      */
     public function content(): Content
     {
         return new Content(
-            view: 'Contactanos.index',
+            view: 'email.contact-form'
         );
     }
 

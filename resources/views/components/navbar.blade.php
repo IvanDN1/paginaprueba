@@ -17,7 +17,7 @@
                     <a class="nav-link" href="/nosotros"><H5>NOSOTROS</H5></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/Contacto/index"><H5>CONTACTANOS</H5></a>
+                    <a class="nav-link" href="/contact"><H5>CONTACTANOS</H5></a>
                 </li>
             </ul>
         </div>

@@ -1,6 +1,7 @@
 <?php
 
-use App\Http\Controllers\ContactoController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\ContactFormController;
 use App\Mail\ContactoMailable;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\InformativaController;
@@ -23,16 +24,12 @@ use Illuminate\Support\Facades\Mail;
 Route::get('/', [InformativaController::class, 'welcome'])->name('home');
 Route::view('/nosotros', [InformativaController::class, 'nosotros'])->name('nosotros');
 
-
-Route::get('Contacto}', function() {
-
-    Mail::to('practicas@tmcapacitacion.cl')->send(new ContactoMailable(''));
-    //
-});
+Route::get('contact', [ContactFormController::class, 'form'])->name('contact.form');
+Route::post('send-form', [ContactFormController::class, 'send'])->name('contact.send');
 
 
-Route::get('contacto', [ContactoController::class, 'form'])->name('contacto.form');
-Route::post('send-form', [ContactoController::class, 'send'])->name('contacto.send');
+
+
 
 
 
