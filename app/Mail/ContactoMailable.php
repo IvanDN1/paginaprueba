@@ -22,9 +22,13 @@ class ContactoMailable extends Mailable
      public $data;
     public function __construct($data)
     {
-        $this->$data = $data;
+        $this->data = $data;
     }
 
+    public function build()
+    {
+        return $this->from('no-reply@pruebas.com', 'Automated System for Sending Notifications')->subject('A user send you a new message')->view('email.contact-form', ['data' => $this->data]);
+    }
     /**
      * Get the message envelope.
      */

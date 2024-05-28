@@ -2,27 +2,32 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactoForm;
 use App\Mail\ContactoMailable;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
 class ContactoController extends Controller
 {
-    public function index() {
-        return view('Contacto.index');
-    }
+    public function form(){
+        return view('contacto.form');
+        }
+
+
 
     public function store(Request $request){
 
-        $request->validate([
+        $data = $request->validate([
             'name' => 'required',
-            'correo' =>'required|email',
-            'mensaje' => 'required'
-        ]);
+            'phone' => 'required',
+            'email' => 'required',
+            'subject' => 'required',
+            'message' => 'required' ]);
 
 
-        Mail::to('Practicas')
-        ->send(new ContactoMailable($request->all()));
+
+        Mail::to('practicas@tmcapacitacion.cl')->send(new ContactoMailable($data));
+   return back()->with('data', $data)->with('message', ['success', 'Message sent succesfully']);
     }
 
 

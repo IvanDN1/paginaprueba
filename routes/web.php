@@ -31,8 +31,8 @@ Route::get('Contacto}', function() {
 });
 
 
-Route::get('/Contacto/index', [ContactoController::class, 'contacto'])->name('contacto');
-Route::post('/Contacto/store', [ContactoController::class, 'contacto'])->name('contacto');
+Route::get('contacto', [ContactoController::class, 'form'])->name('contacto.form');
+Route::post('send-form', [ContactoController::class, 'send'])->name('contacto.send');
 
 
 
