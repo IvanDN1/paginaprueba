@@ -11,8 +11,9 @@ use Illuminate\Queue\SerializesModels;
 
 class ContactForm extends Mailable
 {
-    use Queueable, SerializesModels;
+
     public $data;
+    use Queueable, SerializesModels;
     /**
      * data o informacion que se envia al correo
      */
@@ -25,8 +26,7 @@ class ContactForm extends Mailable
 
     public function build()
     {
-        return $this->from('practicas@tmcapacitacion.cl', 'Automated System for Sending Notifications'
-        )->subject('A user send you a new message')->view('email.contact-form', ['data' => $this->data]);
+        return $this->from('noreply@example.cl', 'Automated System for Sending Notifications')->subject('A user send you a new message')->view('email.contact-form', ['data' => $this->data]);
     }
 
     /**

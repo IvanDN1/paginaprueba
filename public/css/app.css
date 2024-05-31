@@ -5,9 +5,12 @@ body{
 }
 
 .bg-gradient-primary-to-secondary {
-    background: rgb(24, 25, 97);
-    background: linear-gradient(135deg, rgb() 0%, rgb() 100%);
+    background: rgb(76, 164, 49);
     font-size: 90;
+}
+
+.logo-mr-1s{
+    border-radius: 70%;
 }
 
 .bg-gradient-primary-to-secondary2 {
@@ -47,7 +50,7 @@ body{
 p{
     text-align: justify;
     font-style: monospace;
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 20px;
     color:#ffffff;
 }

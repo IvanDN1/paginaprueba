@@ -10,7 +10,6 @@
           <p class="card-text"><b>Nombre:</b> {{ $data['name'] }}</p>
           <p class="card-text"><b>Celular:</b> {{ $data['phone'] }}</p>
           <p class="card-text"><b>Correo:</b> {{ $data['email'] }}.</p>
-          <p class="card-text"><b>Asunto:</b> {{ $data['subject'] }}.</p>
           <p class="card-text"><b>Mensaje:</b> {{ $data['message'] }}.</p>
         </div>
       </div>

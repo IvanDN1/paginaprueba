@@ -1,29 +1,25 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use App\Mail\ContactForm;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
 class ContactFormController extends Controller
 {
-    public function form(){
-        return view('contact.form');
-        }
-
+    public function form()
+    {
+        return view('Contact.form');
+    }
     public function send(Request $request){
         $data = $request->validate([
-            'name' => 'required|string',
-            'email' => 'required|email',
-            'message' => 'required|string',
-            'phone'=> 'required|integer',
-            'subject'=> 'required|String']);
+        'name' => 'required',
+        'phone' => 'required',
+        'email' => 'required',
+        'message' => 'required' ]);
 
-
-            Mail::to('correo@correo.cl')->send(new ContactForm($data));
-            return back()->with('data', $data)->with('message', ['success', 'Message sent succesfully']);
-
-    }
+        Mail::to('practicas@tmcapacitacion.cl')->send(new ContactForm($data));
+        return back()->with('data', $data)->with('message', ['success', 'Message sent succesfully']);
+}
 
 }
