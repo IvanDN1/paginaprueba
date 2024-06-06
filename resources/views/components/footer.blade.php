@@ -1,6 +1,6 @@
 
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/footer.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/app.scss') }}" rel="stylesheet">
+    <link href="{{ asset('css/footer.scss') }}" rel="stylesheet">
 
 <footer class="footer bg-gradient-primary-to-secondary7">
     <div class="container">
@@ -8,10 +8,10 @@
             <div class="col-6 col-md-2 mb-3 custom-section align-rigth">
                 <ul class="nav flex-column">
                     <ul class="nav flex-column">
-                    <li class="nav-item"><a href="/" class="nav-link p-0 text-body-secondary nav-link-custom"><H6>INICIO</H6></a></li>
-                    <li class="nav-item"><a href="/cursos" class="nav-link p-0 text-body-secondary nav-link-custom"><H6>CURSOS</H6></a></li>
-                    <li class="nav-item"><a href="/contact" class="nav-link p-0 text-body-secondary nav-link-custom"><H6>CONTACTO</H6></a></li>
-                    <li class="nav-item"><a href="/nosotros" class="nav-link p-0 text-body-secondary nav-link-custom"><H6>NOSOTROS</H6></a></li>
+                    <li class="nav-item"><a href="/" class="nav-link p-0 text-body-secondary nav-link-custom"><H6 class="mih6">INICIO</H6></a></li>
+                    <li class="nav-item"><a href="/cursos" class="nav-link p-0 text-body-secondary nav-link-custom"><H6 class="mih6">CURSOS</H6></a></li>
+                    <li class="nav-item"><a href="/contact" class="nav-link p-0 text-body-secondary nav-link-custom"><H6 class="mih6">CONTACTO</H6></a></li>
+                    <li class="nav-item"><a href="/nosotros" class="nav-link p-0 text-body-secondary nav-link-custom"><H6 class="mih6">NOSOTROS</H6></a></li>
                 </ul>
             </div>
             <div class="col-6 col-md-2 mb-3 custom-section">

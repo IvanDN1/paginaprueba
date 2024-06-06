@@ -8,6 +8,7 @@
         <div class="card-body">
           <h3 class="card-title">Datos del mensaje</h3>
           <p class="card-text"><b>Nombre:</b> {{ $data['name'] }}</p>
+          <p class="card-text"><b>Motivo:</b> {{ $data['subject'] }}</p>
           <p class="card-text"><b>Celular:</b> {{ $data['phone'] }}</p>
           <p class="card-text"><b>Correo:</b> {{ $data['email'] }}.</p>
           <p class="card-text"><b>Mensaje:</b> {{ $data['message'] }}.</p>

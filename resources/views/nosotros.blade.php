@@ -1,7 +1,6 @@
 @extends('layout.layout')
 @section('content')
-<div class="container">
-    <div class="row mb-2 text-center bg-gradient-primary-to-secondary4  py-4">
+<div class="row container-fluid bg-gradient-primary-to-secondary2">
         <div class="col-6 themed-grid-col">
             <h1 class="h1">
                 Nuestra Mision

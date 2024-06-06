@@ -14,6 +14,7 @@ class ContactFormController extends Controller
     public function send(Request $request){
         $data = $request->validate([
         'name' => 'required',
+        'subject' => 'required',
         'phone' => 'required',
         'email' => 'required',
         'message' => 'required' ]);

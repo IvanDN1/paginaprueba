@@ -1,64 +1,58 @@
-body{
-    background-color: rgb(24, 25, 97);
-    background: linear-gradient(135deg, rgb() 0%, rgb() 100%);
-    font-size: 90;
-}
+
 
 .bg-gradient-primary-to-secondary {
-    background: rgb(76, 164, 49);
+    background: rgb(152, 255, 152);
+    background: linear-gradient(135deg, rgb(152, 255, 152) 0%, rgb(195, 255, 195) 100%);
     font-size: 90;
 }
 
-.logo-mr-1s{
-    border-radius: 70%;
-}
+
+/** eta siendo usado*/
 
 .bg-gradient-primary-to-secondary2 {
-    background: rgb(24, 25, 97);
-    background: linear-gradient(135deg, rgb() 0%, rgb() 100%);
+    background: rgb(152, 255, 152);
+    background: linear-gradient(135deg, rgb(152, 255, 152) 0%, rgb(187, 252, 221) 100%);
     font-size: 80;
  }
 
+/** eta siendo usado*/
+
 .bg-gradient-primary-to-secondary3 {
-    background: rgb(24, 25, 97);
-    background: linear-gradient(135deg, rgb() 0%, rgb() 100%);
+    background: rgb(0, 102, 204);
+    background: linear-gradient(135deg, rgb(0, 0, 128) 5%, rgb(0, 191, 255) 95%);
     font-size: 50;
 }
 
-.bg-gradient-primary-to-secondary4 {
-    background: rgb(24, 25, 97);
-    background: linear-gradient(135deg, rgb() 0%, rgb() 100%);
-    font-size: 50;
-}
-.bg-gradient-primary-to-secondary5 {
-    background: rgb(24, 25, 97);
-    background: linear-gradient(135deg, rgb() 0%, rgb() 100%);
-    font-size: 50;
-}
+/** eta siendo usado*/
 
 .bg-gradient-primary-to-secondary6 {
     background: rgb(24, 25, 97);
-    background: linear-gradient(135deg, rgb() 0%, rgb() 100%);
-    font-size: 50;
-}
-.bg-gradient-primary-to-secondary7 {
-    background: rgb(24, 25, 97);
-    background: linear-gradient(135deg, rgb() 0%, rgb() 100%);
+    background: linear-gradient(135deg, rgb(1, 31, 97) 5%, rgb(0, 128, 128) 95%);
     font-size: 50;
 }
 
+/** eta siendo usado*/
+.bg-gradient-primary-to-secondary7 {
+    background: rgb(152, 255, 152);
+    background: linear-gradient(135deg, rgb(152, 255, 152) 0%, rgb(195, 255, 195) 100%);
+    font-size: 50;
+}
+
+/** eta siendo usado*/
+
 p{
-    text-align: justify;
+    text-align: justify content;
     font-style: monospace;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 20px;
-    color:#ffffff;
+    color:#1c1ca3;
 }
 
 .a {
     margin-right: 20px;
     max-width: 200px;
     max-height: 200px;
+    color: rgb(201, 67, 67);
 }
 
 .h1{
@@ -66,18 +60,28 @@ p{
     margin-bottom: 20px;
     font-style: unset;
     font-size: 65px;
-    color:rgb(255, 255, 255);
+    color:rgb(154, 48, 48);
 }
 
 .h2 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
-    color: rgb(255, 255, 255);
+    color: rgb(200, 83, 83);
 }
+
+
+/** eta siendo usado*/
+
+.mih6{
+    color: rgb(48, 129, 129);
+}
+
+
+
 .mi-clase {
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
 }
 
 .parent {
@@ -88,4 +92,30 @@ p{
     grid-row-gap: 4px;
     }
 
+.card-img-top{
+    width: 25%;
+    height: 25%;
+}
 
+.card-body{
+    padding: 0;
+    border:rgb(89, 206, 54);
+}
+
+.card-text{
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(55, 176, 176);
+}
+
+/** eta siendo usado*/
+
+.text-gradient{
+    color: rgb(192, 147, 174);
+}
+
+/** eta siendo usado*/
+.pclass{
+    color: rgb(101, 42, 150);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

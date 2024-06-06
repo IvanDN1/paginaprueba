@@ -26,6 +26,11 @@
                             <label for="name">Full name</label>
                             <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                         </div>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="subject" type="text" placeholder="Enter your subject..." data-sb-validations="required" data-sb-can-submit="no">
+                            <label for="subject">subject</label>
+                            <div class="invalid-feedback" data-sb-feedback="subject:required">A subject is required.</div>
+                        </div>
                         <!-- Email address input-->
                         <div class="form-floating mb-3">
                             <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" data-sb-can-submit="no">
