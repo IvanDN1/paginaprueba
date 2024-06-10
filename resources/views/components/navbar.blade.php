@@ -1,6 +1,5 @@
 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/navbar.scss') }}" rel="stylesheet">
     <link href="{{ asset('js/navbar.js') }}" rel="stylesheet">
 
 
@@ -11,13 +10,13 @@
             </a>
             <ul class="navbar-nav mr-auto align-rigth">
                 <li class="nav-item active">
-                    <a class="nav-link" href="/"><H5>INICIO</H5></a>
+                    <a class="nav-link" href="/"><H6>INICIO</H6></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/nosotros"><H5>NOSOTROS</H5></a>
+                    <a class="nav-link" href="/nosotros"><H6>NOSOTROS</H6></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/contact"><H5>CONTACTANOS</H5></a>
+                    <a class="nav-link" href="/contact"><H6>CONTACTANOS</H6></a>
                 </li>
             </ul>
         </div>

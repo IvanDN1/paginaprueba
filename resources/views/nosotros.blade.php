@@ -1,37 +1,35 @@
 @extends('layout.layout')
 <link href="{{ asset('css/card.css') }}" rel="stylesheet">
 <link href="{{ asset('css/flipycard.css') }}" rel="stylesheet">
+<link href="{{ asset('css/bookcard.css') }}" rel="stylesheet">
 @section('content')
-<div class="cardeck" style="padding-left: 3%;">
+<div class="cardeck">
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
         <div class="col-sm-5 col-md-6">
-            <div class="">
-                <div class="card">
-                    <div class="card__title">
-                    VISIÓN
-                    </div>
-                    <div class="card__descr-wrapper">
-                    Ser un exponente de calidad, prestigio y transformación educativa a nivel nacional,
-                    ofrecer un asesorías y capacitaciones innovadoras para la educación y especialización de docentes,
-                    estar a la vanguardia del impulso enfocado al desarrollo de comunidades educativas y directivos,
-                    avanzar juntos a un futuro de educación accesible,
-                    de calidad y orientada a la creación de Personas responsables.
-                    </div>
+            <div class="card">
+                <div class="content">
+                    <p class="heading">Vision</p>
+                    <p class="para">
+                    Ser un exponente de calidad, prestigio y transformación educativa a nivel nacional.
+                    Ofrecer asesorías y capacitaciones innovadoras que la educación requiere a traves de la Especialización de docentes,
+                    directivos y paradocentes.
+                    Mentenerse a la vanguardia del impulso al desarrollo enfocandose en comunidades educativas completas buscando avanzar,
+                    a un futuro de educación accesible para todos donde la calidad y orientacion generen personas responsables para el mañana.
+                    </p>
                 </div>
             </div>
         </div>
         <div class="col-sm-5 col-md-6">
-            <div class="">
-                <div class="card">
-                    <p class="card__title">
-                    MISIÓN
+            <div class="card">
+                <div class="content">
+                    <p class="heading">Mision</p>
+                    <p class="para">
+                    Ser un aporte a la educación generando mejoras estratégicas de aprendizaje y capacitando a los equipos educativos,
+                    asesorar de manera técnica en la creación de metodologías nuevas.
+                    Asistencia enfocada en gestión para equipos de docentes, directivos y paradocentes.
+                    Mejorar la educación a travez de la continua evolucion de los profesionales con programas innovadores,
+                    integrando nuevas tecnologias que permitan mejoras en el desempeño y desarrollo de las lecciones.
                     </p>
-                    <div class="card__descr-wrapper">
-                    Ser un aporte a la educación generando mejoras estratégicas de aprendizaje,
-                    capacitar y asesorar a los equipos educativos de manera técnica,
-                    en la creación de metodologías nuevas,
-                    así como la asistencia enfocada en gestión para equipos directivos ligados a la educación.
-                    </div>
                 </div>
             </div>
         </div>
@@ -50,9 +48,7 @@
                         <p>Volteame</p>
                     </div>
                     <div class="flip-card-back">
-                        <p class="title">BACK</p>
-                        <p>Fomentar el desarrollo de valores que influyen personal como profesionalmente,
-                            apoyar el desarrollo de la autoconciencia ética y responsabilidad de los individuos.</p>
+                        <p>Fomentar el desarrollo de valores que influyan personal y profesionalmente, apoyando la autoconciencia, ética y responsabilidad de cada individuo.</p>
                     </div>
                 </div>
             </div>
@@ -65,10 +61,7 @@
                         <p>Volteame</p>
                     </div>
                     <div class="flip-card-back">
-                        <p class="title">BACK</p>
-                        <p>impulsar la capacidad de aprendizaje,
-                        adaptabilidad en búsqueda de nuevos conocimientos para el desarrollo personal y profesional,
-                        aportando a la cultura de la educación.</p>
+                        <p>Impulsar la capacidad del aprendizaje, la adaptabilidad en la búsqueda de conocimientos nuevos para el desarrollo, aportando a la cultura educacional de manera profesional y personal.</p>
                     </div>
                 </div>
             </div>
@@ -81,10 +74,7 @@
                         <p>Volteame</p>
                     </div>
                     <div class="flip-card-back">
-                        <p class="title">BACK</p>
-                        <p>Promovemos la experiencia que permite enfrentar los retos del futuro con otra mirada,
-                            buscando enfatizar en la importancia del trabajo personal ,
-                            colaborativo y la eficacia en cada  proyecto.</p>
+                        <p>Proveer la experiencia que permite enfrentar retos con otra mirada hacia el futuro, buscando el énfasis en la importancia del trabajo personal al igual que el colaborativo y la eficacia para cada proyecto.</p>
                     </div>
                 </div>
             </div>
@@ -97,10 +87,7 @@
                         <p>Volteame</p>
                     </div>
                     <div class="flip-card-back">
-                        <p class="title">BACK</p>
-                        <p>Buscamos impulsar el desarrollo del respeto mutuo y empatía en las colaboraciones,
-                        comprometiéndonos a fomentar la creación de ambientes colaborativos e inclusivos,
-                        valorando las voces de los individuos tanto profesional como socialmente.</p>
+                        <p>Buscar el impulso al desarrollo de respeto mutuo y empatía en cada colaboración, fomentar el compromiso a la creación de ambientes más colaborativos e inclusivos, valorando la voz de los individuos de manera profesional y social.</p>
                     </div>
                 </div>
             </div>
@@ -108,6 +95,78 @@
     </div>
 </div>
 
+<section class=" bg-gradient-primary-to-secondary6 text-white py-3">
+</section>
+
+<div class="cardeck">
+    <div class="row row-cols-8 row-cols-sm-2 row-cols-md-4">
+        <div class="col">
+            <div class="book">
+                <p>Hello</p>
+                <div class="cover">
+                    <p>Hover Me</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="book">
+                <p>Hello</p>
+                <div class="cover">
+                    <p>Hover Me</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="book">
+                <p>Hello</p>
+                <div class="cover">
+                    <p>Hover Me</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="book">
+                <p>Hello</p>
+                <div class="cover">
+                    <p>Hover Me</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="book">
+                <p>Hello</p>
+                <div class="cover">
+                    <p>Hover Me</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="book">
+                <p>Hello</p>
+                <div class="cover">
+                    <p>Hover Me</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="book">
+                <p>Hello</p>
+                <div class="cover">
+                    <p>Hover Me</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="book">
+                <p>Hello</p>
+                <div class="cover">
+                    <p>Hover Me</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
