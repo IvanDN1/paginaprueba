@@ -1,17 +1,41 @@
 
 
-.bg-gradient-primary-to-secondary {
-    background: rgb(152, 255, 152);
-    background: linear-gradient(135deg, rgb(152, 255, 152) 0%, rgb(195, 255, 195) 100%);
-    font-size: 90;
+.valores {
+    padding: 1%;
+  }
+
+  .boton-valor {
+    display: block; /* Ocupa todo el ancho disponible */
+    padding: 8px 15px;
+    background-color: #04ae2e; /* Adjust color as needed */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 5px; /* Space between buttons */
+    transition: background-color 0.2s ease-in-out; /* Add smooth transition */
+  }
+
+  .boton-valor:hover {
+    background-color: #0056b3; /* Hover effect */
+  }
+
+
+.bg-light{
+    background-color: chartreuse;
 }
 
 
+.bg-gradient-primary-to-secondary {
+    background: rgb(51, 138, 51);
+    background: linear-gradient(135deg, rgb(125, 228, 125) 0%, rgb(176, 223, 194) 100%);
+    font-size: 80;
+ }
 /** eta siendo usado*/
 
 .bg-gradient-primary-to-secondary2 {
-    background: rgb(152, 255, 152);
-    background: linear-gradient(135deg, rgb(152, 255, 152) 0%, rgb(187, 252, 221) 100%);
+    background: rgb(51, 138, 51);
+    background: linear-gradient(135deg, rgb(54, 188, 54) 0%, rgb(166, 216, 192) 100%);
     font-size: 80;
  }
 
@@ -45,33 +69,7 @@ p{
     font-style: monospace;
     font-size: 18px;
     margin-bottom: 20px;
-    color:rgb(216, 183, 61);
-}
-
-.a {
-    margin-right: 20px;
-    max-width: 200px;
-    max-height: 200px;
-    color: rgb(154, 77, 135);
-}
-
-.h1{
-    text-align: center;
-    margin-bottom: 20px;
-    font-style: unset;
-    font-size: 65px;
-    color:rgb(154, 48, 48);
-}
-
-.h2 {
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-    color: rgb(200, 83, 83);
-}
-
-.nav-item {
-    color: black    ;
+    color:rgb(179, 148, 36);
 }
 
 /** eta siendo usado*/
@@ -80,41 +78,10 @@ p{
     color: rgb(48, 129, 129);
 }
 
-
-
-.mi-clase {
-    width: 100%;
-    height: 100%;
-}
-
-.parent {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 4px;
-    grid-row-gap: 4px;
-    }
-
-.card-img-top{
-    width: 25%;
-    height: 25%;
-}
-
-.card-body{
-    padding: 0;
-    border:rgb(89, 206, 54);
-}
-
-.card-text{
-    font-size: 20px;
-    font-style: italic;
-    color: rgb(55, 176, 176);
-}
-
 /** eta siendo usado*/
 
 .text-gradient{
-    color: rgb(192, 147, 174);
+    color: rgb(215, 71, 157);
 }
 
 /** eta siendo usado*/
