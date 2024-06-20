@@ -1,14 +1,23 @@
 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('js/navbar.js') }}" rel="stylesheet">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <div class="topnav" id="myTopnav">
-  <a href="/" class="active">Home</a>
-  <a href="/nosotros">NOSOTROS</a>
-  <a href="/contact">CONTACTANOS</a>
+  <a href="/" class="active"><i class="fa fa-fw fa-home"></i>Home</a>
+  <a href="/nosotros"><i class="fa fa-fw fa-user"></i>NOSOTROS</a>
+  <a href="/contact"><i class="fa fa-fw fa-envelope"></i>CONTACTANOS</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
 </div>
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+ </script>

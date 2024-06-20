@@ -24,7 +24,7 @@ use Illuminate\Support\Facades\Mail;
 Route::get('/', [InformativaController::class, 'welcome'])->name('home');
 Route::view('/nosotros', [InformativaController::class, 'nosotros'])->name('nosotros');
 
-Route::get('contact', [ContactFormController::class, 'form'])->name('contact.form');
+Route::get('/contact', [ContactFormController::class, 'form'])->name('contact.form');
 Route::post('send-form', [ContactFormController::class, 'send'])->name('contact.send');
 
 

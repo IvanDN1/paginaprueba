@@ -1,36 +1,4 @@
 
-
-.valores {
-    padding: 1%;
-  }
-
-  .boton-valor {
-    display: block; /* Ocupa todo el ancho disponible */
-    padding: 8px 15px;
-    background-color: #ffffff; /* Adjust color as needed */
-    color: #fff;
-    text-decoration: none;
-    border-radius: 15px;
-    cursor: pointer;
-    margin-bottom: 5px; /* Space between buttons */
-    transition: background-color 0.2s ease-in-out; /* Add smooth transition */
-  }
-
-  .boton-valor:hover {
-    background-color: #0056b3; /* Hover effect */
-  }
-
-
-.bg-light{
-    background-color: chartreuse;
-}
-
-
-.bg-gradient-primary-to-secondary {
-    background: rgb(51, 138, 51);
-    background: linear-gradient(135deg, rgb(7, 122, 7) 0%, rgb(176, 223, 194) 100%);
-    font-size: 80;
- }
 /** eta siendo usado*/
 
 .bg-gradient-primary-to-secondary3 {
@@ -42,49 +10,14 @@
 /** eta siendo usado*/
 
 .bg-gradient-primary-to-secondary6 {
-    background: rgb(24, 25, 97);
-    background: linear-gradient(135deg, rgb(1, 31, 97) 5%, rgb(0, 128, 128) 95%);
+    background: rgb(24, 97, 56);
+    background: linear-gradient(135deg, rgb(1, 97, 25) 5%, rgb(0, 128, 96) 95%);
     font-size: 50;
 }
-
-/** eta siendo usado*/
-.bg-gradient-primary-to-secondary7 {
-    background: rgb(152, 255, 152);
-    background: linear-gradient(135deg, rgb(152, 255, 152) 0%, rgb(195, 255, 195) 100%);
-    font-size: 50;
-}
-
-/** eta siendo usado*/
-
-p{
-    text-align: justify content;
-    font-style: monospace;
-    font-size: 18px;
-    margin-bottom: 20px;
-    color:rgb(151, 151, 151);
-}
-/** eta siendo usado*/
-
-.mih6{
-    color: rgb(48, 129, 129);
-}
-
-/** eta siendo usado*/
-
-.text-gradient{
-    color: rgb(215, 71, 157);
-}
-
-/** eta siendo usado*/
-.pclass{
-    color: rgb(101, 42, 150);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #029533;
+    background-color: #00a336;
     overflow: hidden;
   }
 
@@ -118,6 +51,8 @@ p{
 
 
 
+
+  /*top nav**/
 
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {

@@ -1,4 +1,7 @@
 @extends('layout.layout')
+<link href="{{ asset('css/card.css') }}" rel="stylesheet">
+<link href="{{ asset('css/flipycard.css') }}" rel="stylesheet">
+<link href="{{ asset('css/bookcard.css') }}" rel="stylesheet">
 
 @section('content')
 
