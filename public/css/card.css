@@ -57,7 +57,7 @@
     bottom: -5.2rem;
     width: 10.4rem;
     height: 10.4rem;
-    background: #0a3cff;
+    background: #1a8740;
     z-index: 0;
     opacity: 0;
     border-radius: 50%;
@@ -101,8 +101,8 @@
 
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
   @media screen and (max-width: 600px) {
-    .cardeck.responsive {position: relative;}
-    .cardeck.responsive a.icon {
+    .card.responsive {position: relative;}
+    .card.responsive a.icon {
       position: absolute;
       right: 0;
       top: 0;
