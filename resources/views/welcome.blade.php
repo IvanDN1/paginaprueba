@@ -8,7 +8,7 @@
 <div class="cardeck">
     <div class="row justify-content-center text-center">
         <div class="col-sm-5 col-md-4">
-            <div class="card">
+            <div class="card1">
                 <div class="content">
                     <p class="heading">SOMOS TM CORPORACION</p>
                     <p class="para">
