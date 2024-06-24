@@ -1,7 +1,5 @@
 @extends('layout.layout')
 <link href="{{ asset('css/card.css') }}" rel="stylesheet">
-<link href="{{ asset('css/flipycard.css') }}" rel="stylesheet">
-<link href="{{ asset('css/bookcard.css') }}" rel="stylesheet">
 
 @section('content')
 
@@ -27,7 +25,7 @@
         <div class="col-sm-5 col-md-4">
             <div class="card">
                 <div class="content">
-                    <img class="img-fluid" src="/images/diseñando.jpg" alt="..." />
+                    <img class="img-fluid" src="/images/LogoATE2.jpg" alt="..." />
                 </div>
             </div>
         </div>
